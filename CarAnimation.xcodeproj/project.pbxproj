@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AF0143412B8C9D4000AF5E6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143402B8C9D4000AF5E6C /* AppDelegate.swift */; };
-		AF0143432B8C9D4000AF5E6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143422B8C9D4000AF5E6C /* SceneDelegate.swift */; };
-		AF0143452B8C9D4000AF5E6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143442B8C9D4000AF5E6C /* ViewController.swift */; };
-		AF0143482B8C9D4000AF5E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0143462B8C9D4000AF5E6C /* Main.storyboard */; };
 		AF01434A2B8C9D4200AF5E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0143492B8C9D4200AF5E6C /* Assets.xcassets */; };
 		AF01434D2B8C9D4200AF5E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF01434B2B8C9D4200AF5E6C /* LaunchScreen.storyboard */; };
 		AF0143582B8C9D4200AF5E6C /* CarAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143572B8C9D4200AF5E6C /* CarAnimationTests.swift */; };
 		AF0143622B8C9D4200AF5E6C /* CarAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143612B8C9D4200AF5E6C /* CarAnimationUITests.swift */; };
 		AF0143642B8C9D4200AF5E6C /* CarAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143632B8C9D4200AF5E6C /* CarAnimationUITestsLaunchTests.swift */; };
+		AF0143722B8C9D9200AF5E6C /* CarAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0143702B8C9D9200AF5E6C /* CarAnimationVC.xib */; };
+		AF0143732B8C9D9200AF5E6C /* CarAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0143712B8C9D9200AF5E6C /* CarAnimationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,6 @@
 /* Begin PBXFileReference section */
 		AF01433D2B8C9D4000AF5E6C /* CarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0143402B8C9D4000AF5E6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF0143422B8C9D4000AF5E6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF0143442B8C9D4000AF5E6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AF0143472B8C9D4000AF5E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF0143492B8C9D4200AF5E6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF01434C2B8C9D4200AF5E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF01434E2B8C9D4200AF5E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		AF01435D2B8C9D4200AF5E6C /* CarAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0143612B8C9D4200AF5E6C /* CarAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnimationUITests.swift; sourceTree = "<group>"; };
 		AF0143632B8C9D4200AF5E6C /* CarAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF0143702B8C9D9200AF5E6C /* CarAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarAnimationVC.xib; sourceTree = "<group>"; };
+		AF0143712B8C9D9200AF5E6C /* CarAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarAnimationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				AF0143402B8C9D4000AF5E6C /* AppDelegate.swift */,
-				AF0143422B8C9D4000AF5E6C /* SceneDelegate.swift */,
-				AF0143442B8C9D4000AF5E6C /* ViewController.swift */,
-				AF0143462B8C9D4000AF5E6C /* Main.storyboard */,
+				AF0143712B8C9D9200AF5E6C /* CarAnimationVC.swift */,
+				AF0143702B8C9D9200AF5E6C /* CarAnimationVC.xib */,
 				AF0143492B8C9D4200AF5E6C /* Assets.xcassets */,
 				AF01434B2B8C9D4200AF5E6C /* LaunchScreen.storyboard */,
 				AF01434E2B8C9D4200AF5E6C /* Info.plist */,
@@ -233,7 +230,7 @@
 			files = (
 				AF01434D2B8C9D4200AF5E6C /* LaunchScreen.storyboard in Resources */,
 				AF01434A2B8C9D4200AF5E6C /* Assets.xcassets in Resources */,
-				AF0143482B8C9D4000AF5E6C /* Main.storyboard in Resources */,
+				AF0143722B8C9D9200AF5E6C /* CarAnimationVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0143452B8C9D4000AF5E6C /* ViewController.swift in Sources */,
 				AF0143412B8C9D4000AF5E6C /* AppDelegate.swift in Sources */,
-				AF0143432B8C9D4000AF5E6C /* SceneDelegate.swift in Sources */,
+				AF0143732B8C9D9200AF5E6C /* CarAnimationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AF0143462B8C9D4000AF5E6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AF0143472B8C9D4000AF5E6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AF01434B2B8C9D4200AF5E6C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,7 +435,7 @@
 				INFOPLIST_FILE = CarAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -475,7 +463,7 @@
 				INFOPLIST_FILE = CarAnimation/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
